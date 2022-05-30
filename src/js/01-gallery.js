@@ -1,8 +1,5 @@
-// Add imports above this line
 import { galleryItems } from './gallery-items';
-// Change code below this line
 import SimpleLightbox from "simplelightbox";
-// Дополнительный импорт стилей
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 const galleryContainer = document.querySelector('.gallery');
@@ -10,7 +7,6 @@ const galleryMarkup = createGalleryMarkup(galleryItems);
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryMarkup);
 
-// galleryContainer.addEventListener('click', onGalleryContainerClick);
 
 
 function createGalleryMarkup(galleryItems) {
